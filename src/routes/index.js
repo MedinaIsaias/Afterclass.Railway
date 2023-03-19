@@ -15,7 +15,7 @@ router.get("/saludo", (req, res) => {
 
 router.get("/test", (req, res) => {
   try {
-    res.send("entrega de trabajo practico Railways");
+    res.send("test final");
   } catch (err) {
     logger.error(err, "Error =>");
     res.sendStatus(500);
